@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Geometric/Minimalist: Simplified temple/column structure -->
+  <defs>
+    <style>
+      .geo-bg { fill: #2d3748; }
+      .geo-accent { fill: #f7fafc; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" class="geo-bg"/>
+  
+  <!-- Simplified pediment (triangular roof) -->
+  <path d="M 100 50 L 160 90 L 40 90 Z" class="geo-accent"/>
+  
+  <!-- Three columns (minimalist rectangles) -->
+  <rect x="55" y="95" width="12" height="55" class="geo-accent"/>
+  <rect x="94" y="95" width="12" height="55" class="geo-accent"/>
+  <rect x="133" y="95" width="12" height="55" class="geo-accent"/>
+  
+  <!-- Base platform -->
+  <rect x="35" y="155" width="130" height="5" class="geo-accent"/>
+</svg>
